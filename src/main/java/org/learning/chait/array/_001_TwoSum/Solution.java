@@ -1,4 +1,4 @@
-package org.learning.chait.array;
+package org.learning.chait.array._001_TwoSum;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ import java.util.*;
  *
  * You can return the answer in any order.
  */
-public class TwoSum {
+public class Solution {
 
     /**
      * We know that x + y = target
@@ -17,7 +17,7 @@ public class TwoSum {
      * Use a hashtable to keep track of seen `x` while traversing.
      */
 
-    public static int[] solution(int[] nums, int target){
+    public static int[] twoSum(int[] nums, int target){
         Set<Integer> seen = new HashSet<>();
         int[] result = new int[2];
         int i, x, y=0, j;

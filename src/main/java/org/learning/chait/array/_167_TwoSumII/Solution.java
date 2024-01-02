@@ -1,4 +1,4 @@
-package org.learning.chait.array;
+package org.learning.chait.array._167_TwoSumII;
 
 /**
  * Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order,
@@ -11,7 +11,7 @@ package org.learning.chait.array;
  *
  * Your solution must use only constant extra space.
  */
-public class TwoSumII {
+public class Solution {
 
     /**
      * Have 2 pointers: left and right
