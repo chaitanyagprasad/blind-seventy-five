@@ -1,4 +1,4 @@
-package org.learning.chait.array;
+package org.learning.chait.array._217_ContainsDuplicate;
 
 import java.util.*;
 

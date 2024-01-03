@@ -1,6 +1,7 @@
-package org.learning.chait.array;
+package org.learning.chait.array._217_ContainsDuplicate;
 
 import org.junit.*;
+import org.learning.chait.array._217_ContainsDuplicate.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

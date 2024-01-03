@@ -1,15 +1,16 @@
-package org.learning.chait.array;
+package org.learning.chait.array._015_ThreeSum;
 
 import org.apache.commons.collections4.*;
 import org.junit.*;
 import org.junit.rules.*;
+import org.learning.chait.array._015_ThreeSum.*;
 
 import java.util.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class ThreeSumTest {
+public class SolutionTest {
 
     @Rule
     public Timeout globalTimeout =  new Timeout(200);
@@ -18,7 +19,7 @@ public class ThreeSumTest {
     @Test
     public void Test0() {
         int[] nums = { -1, 0, 1, 2, -1, -4 };
-        List<List<Integer>> actual = ThreeSum.threeSum(nums);
+        List<List<Integer>> actual = Solution.threeSum(nums);
         List<List<Integer>> expected = new ArrayList<List<Integer>>();
         expected.add(Arrays.asList(-1, -1, 2));
         expected.add(Arrays.asList(-1, 0, 1));
@@ -30,7 +31,7 @@ public class ThreeSumTest {
     @Test
     public void Test1() {
         int[] nums = { -1, -6, -3, -7, -4, -4, 0, 3, -2, -10, -10, 9 };
-        List<List<Integer>> actual = ThreeSum.threeSum(nums);
+        List<List<Integer>> actual = Solution.threeSum(nums);
         List<List<Integer>> expected = new ArrayList<List<Integer>>();
         expected.add(Arrays.asList(-2, -1, 3));
         expected.add(Arrays.asList(-7, -2, 9));
@@ -48,7 +49,7 @@ public class ThreeSumTest {
                 -2, 3, -8, 7, -13, 7, -12, -9, 11, 0, 4, 12, -6, -7, 14, -1, 0,
                 14, -6, 1, 6, -2, -9, -4, -11, 12, -1, -1, 10, -7, -6, -7, 11,
                 1, -15, 6, -15, -12, 12, 12, 3, 1, 9, 12, 9, 0, -11, -14, -1 };
-        List<List<Integer>> actual = ThreeSum.threeSum(nums);
+        List<List<Integer>> actual = Solution.threeSum(nums);
         List<List<Integer>> expected = new ArrayList<List<Integer>>();
         expected.add(Arrays.asList(-15, 1, 14));
         expected.add(Arrays.asList(-15, 3, 12));
@@ -177,7 +178,7 @@ public class ThreeSumTest {
                 0, -4, -1, -12, -2, 14, -9, 7, 0, -3, -4, 1, -2, 12, 14, -10,
                 0, 5, 14, -1, 14, 3, 8, 10, -8, 8, -5, -2, 6, -11, 12, 13, -7,
                 -12, 8, 6, -13, 14, -2, -5, -11, 1, 3, -6 };
-        List<List<Integer>> actual = ThreeSum.threeSum(nums);
+        List<List<Integer>> actual = Solution.threeSum(nums);
         List<List<Integer>> expected = new ArrayList<List<Integer>>();
 
         expected.add(Arrays.asList(-15, 1, 14));

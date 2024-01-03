@@ -1,4 +1,4 @@
-package org.learning.chait.interval.meetingroom;
+package org.learning.chait.interval._252_MeetingRoom;
 
 import lombok.*;
 

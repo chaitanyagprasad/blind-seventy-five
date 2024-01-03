@@ -1,4 +1,4 @@
-package org.learning.chait.array;
+package org.learning.chait.array._015_ThreeSum;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import java.util.*;
  *
  * Notice that the solution set must not contain duplicate triplets.
  */
-public class ThreeSum {
+public class Solution {
 
     /**
      *

@@ -1,6 +1,7 @@
-package org.learning.chait.interval.meetingroom;
+package org.learning.chait.interval._252_MeetingRoom;
 
 import org.junit.Test;
+import org.learning.chait.interval._252_MeetingRoom.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
